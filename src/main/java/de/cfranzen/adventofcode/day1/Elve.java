@@ -2,7 +2,7 @@ package de.cfranzen.adventofcode.day1;
 
 import java.util.Objects;
 
-public class Elve {
+class Elve {
 
     private final String name;
 

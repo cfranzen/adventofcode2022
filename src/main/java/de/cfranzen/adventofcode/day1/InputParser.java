@@ -5,7 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.ArrayList;
 import java.util.List;
 
-public class InputParser {
+class InputParser {
     private int elveCounter = 0;
 
     public List<Elve> parseInput(final List<String> lines) {
