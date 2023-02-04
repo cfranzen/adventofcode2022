@@ -29,6 +29,12 @@ public class CpuPipelineApp {
     }
 
     private static void calculatePart2(final List<Instruction> instructions) {
+        final CpuPipeline cpu = new CpuPipeline();
+        for (var instruction : instructions) {
+            instruction.execute(cpu);
+        }
 
+        System.out.println("\n-------- Part 2 ---------");
+        new CRT().print(cpu);
     }
 }

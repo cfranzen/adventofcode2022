@@ -22,4 +22,8 @@ public class CpuPipeline {
     public int getSignalStrength(final int cycle) {
         return cycle * history.get(cycle - 1);
     }
+
+    public int getValueXAtCycle(final int cycle) {
+        return history.get(cycle - 1);
+    }
 }
